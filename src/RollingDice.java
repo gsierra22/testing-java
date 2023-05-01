@@ -1,9 +1,13 @@
+import java.util.Random;
 
 public class RollingDice {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("testing!");
+		
+		Random newRandom = new Random();
+		int x = newRandom.nextInt(6);
+		
+		System.out.println("You rolled" + x);
 	}
 
 }
